@@ -96,7 +96,7 @@ async def getpjson(update: Update, _: ContextTypes.DEFAULT_TYPE):
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     msg = update.effective_message
     await msg.reply_text(
-        "I'm alive!\nCmmands:\n- /dounban chat_id on/off\n- /id\n\n (Make sure to promote me before using me with the below buttons!)\n\nMade by @annihilatorrrr !",
+        "I'm alive!\nCmmands:\n- /dounban chat_id on/off\n- /id\n\n (Make sure to promote me before using me with the below buttons!)",
         reply_markup=InlineKeyboardMarkup([
             [
                 InlineKeyboardButton(
